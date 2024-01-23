@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <title>Age Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="con">
+            <div class="con-top">
+                <label for="day">Day</label>
+                <input id="day" type="number" required placeholder="DD">
+                <div id="day-extra"></div>
+            </div>
+            <div class="con-top">
+                <label for="month">Month</label>
+                <input id="month" type="number" required placeholder="MM">
+                <div id="month-extra"></div>
+            </div>
+            <div class="con-top">
+                <label for="year">Year</label>
+                <input id="year" type="number" required placeholder="YY">
+                <div id="year-extra"></div>
+            </div>
+        </div>
+        <div id="cl-btn">
+            <img id="s-btn" src="assets/images/icon-arrow.svg" alt="">
+        </div>
+        <div class="cn-bottom">
+            <h3 id="r-year">--</h3>
+            <h3>years</h3>
+        </div>
+        <div class="cn-bottom">
+            <h3 id="r-month">--</h3>
+            <h3>months</h3>
+        </div>
+        <div class="cn-bottom">
+            <h3 id="r-day">--</h3>
+            <h3>days</h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
